@@ -1,10 +1,12 @@
-# Ignore everything in the parent directories
-../../*
+# Ignore everything in the WordPress directory
+/*
 
 # But not these files...
 !.gitignore
-!*/
+!wp-content/
+!wp-content/themes/
+!wp-content/themes/**
 
 # Even if you want to ignore a file that is already tracked
-../*/
-../../*/
+wp-content/*
+!wp-content/themes/
