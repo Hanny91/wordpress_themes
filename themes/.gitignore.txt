@@ -1,0 +1,10 @@
+# Ignore everything in the parent directories
+../../*
+
+# But not these files...
+!.gitignore
+!*/
+
+# Even if you want to ignore a file that is already tracked
+../*/
+../../*/
